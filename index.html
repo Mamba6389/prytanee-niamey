@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prytanée Militaire de Niamey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cfec7f;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #2812f1; /* Vert militaire */
+            color: white;
+            padding: 20px 0;
+            position: relative;
+        }
+        header::before {
+            content: "";
+            background: url('640px-Coat_of_arms_of_Niger.svg.png') no-repeat;
+            background-size: contain;
+            width: 100px;
+            height: 60px;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-style: italic;
+            font-size: 1.2em;
+        }
+        .banner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 70vh;
+            background: url("IMG-20250714-WA0279.jpg") no-repeat center center/cover; /* Remplace par une image militaire */
+            color: rgb(255, 255, 255);
+            text-shadow: 2px 2px 4px rgba(7, 4, 4, 0.5);
+        }
+        header::after {
+content: "";
+background: url("-BgSWxle_400x400.jpg") no-repeat;
+background-size: contain;
+            width: 100px;
+            height: 60px;
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .banner h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .banner p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .banner a {
+            background-color: #4A7023; /* Vert kaki */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .banner a:hover {
+            background-color: #006633;
+        }
+        .section-link {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+        .section-link div {
+            width: 45%;
+            margin: 10px;
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section-link div a {
+            background-color: rgba(0, 102, 51, 0.8); /* Vert militaire semi-transparent */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .section-link div a:hover {
+            background-color: rgba(74, 112, 35, 0.8); /* Vert kaki semi-transparent */
+        }
+        footer {
+            background-color: #2812f1;
+            color: white;
+            text-align: center;
+            padding: 0px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Prytanée Militaire de Niamey</h1>
+        <p>S'instruire pour mieux bâtir</p>
+    </header>
+    <div class="banner">
+        <h2>Bienvenue au Prytanée Militaire de Niamey</h2>
+        <p>Formation académique et militaire d'excellence</p>
+        <div>
+            <a href="accueil.html">Accueil</a>
+        </div>
+    </div>
+    <div class="section-link">
+        <div style="background-image: url('le-Général-de-Brigade-IBRA-BOULAMA-ISSA-2.jpg');">
+            <a href="histoire.html">Histoire</a>
+        </div>
+        <div style="background-image: url('file-R3hWDzUMAiLubu5UbqzBL1.webp');">
+            <a href="programmes.html">Programmes</a>
+        </div>
+        <div style="background-image: url('FB_IMG_1742737676010.jpg');">
+            <a href="admission.html">Admission</a>
+        </div>
+        <div style="background-image: url('file_000000000bb0620ab1d1969633091a8d_conversation_id=6807a233-8dbc-800d-8ad3-0c4361e4f78c&message_id=9752d196-f931-4300-8eee-241e3336aa47.png');">
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Prytanée Militaire de Niamey. S'instruire pour mieux bâtir.</p>
+    </footer>
+</body>
+</html>
